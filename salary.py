@@ -27,7 +27,7 @@ with st.expander('Focus Prediction'):
         st.write('')
         st.subheader('Customer Data')
         fig =  ff.create_table(data)
-        fig.update_layout(width=670)
+        fig.update_layout(width=680)
         st.write(fig)
 
         st.write('')
